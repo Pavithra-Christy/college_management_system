@@ -1,0 +1,23 @@
+# Ignore Virtual Environment
+venv/
+
+# Ignore compiled Python files# Python & Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Ignore Environment Variables
+.env
+
+# Ignore Django Migrations Cache
+*.log
+
+# MySQL Dump Files (Optional, Only if you don't want to share)
+database_dump.sql
+
+# Database files (DO NOT PUSH)
+*.sql
+*.sqlite3
+*.db
